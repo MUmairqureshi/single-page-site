@@ -7,7 +7,7 @@ export function Support() {
         <div name="support" className='w-full mt-24  '>
 
             <div className=' w-full bg-gray-900/90 absolute h-[700px]' >
-                <img className='mix-blend-overlay w-full h-full object-cover' src={callcenter} alt=" collcenter-image " /></div>
+                <img className='mix-blend-overlay w-full h-full object-cover' src={callcenter} alt=" collcenter " /></div>
             <div className='text-white mx-auto max-w-[1240px] relative'>
                 <div className=' py-12 px-3'>
                     <h1 className=' text-slate-200 text-3xl pt-8 text-center'> SUPPORT</h1>
