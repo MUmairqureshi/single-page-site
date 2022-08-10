@@ -19,7 +19,7 @@ export function Hero() {
                     <button className='py-3 px-6 sm:w-[60%] my-4'>Get Started</button>
                 </div>
                 <div>
-                    <img className="w-full" src={cyber} />
+                    <img className="w-full" src={cyber}  alt="home-image "/>
                 </div>
 
 
