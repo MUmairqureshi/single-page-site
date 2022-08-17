@@ -7,7 +7,7 @@ import {Footer} from './components/footer'
 function App() {
   return (
     <div className="bg-gray-100  m-auto w-full h-full  flex flex-col ">
-      <div class="">
+      <div >
         <Home />
         <About />
         <Team/>
