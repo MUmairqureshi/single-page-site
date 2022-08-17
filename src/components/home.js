@@ -32,7 +32,7 @@ export function Home() {
                     </div>
                 </div>
                 <ul className={!nav ? 'hidden' : ' absolute w-full  px-2 text-white'}>
-                    <li className='flex '><Link to="home" onClick={handleClose} smooth={true} duration={500}>Home</Link> </li>
+                     <li className='flex '><Link className='flex ' onClick={handleClose} to="document"><DocumentTextIcon className='w-5 mr-1  ' />DOCS </Link> </li>
                     <li className='flex '><Link className='flex ' onClick={handleClose} smooth={true} to="components"> <ViewGridIcon className='w-5 mr-1  ' /> COMPONENTS </Link></li>
                     <li className='flex '> <Link className='flex ' onClick={handleClose} smooth={true} to="document"><TemplateIcon className='w-5 mr-1  ' />Templates</Link></li>
                     <li className='flex '><Link className='flex ' onClick={handleClose} smooth={true} to="document">  <PhoneIcon className='w-5 mr-1 ' /> Contact </Link></li>
