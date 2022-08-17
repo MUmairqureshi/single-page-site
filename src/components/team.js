@@ -7,9 +7,9 @@ import img4 from './img4.webp'
 import {
     FaFacebook,
     FaGithub,
-    FaInstagram,
+ 
     FaTwitter,
-    FaTwitch,
+  
 } from 'react-icons/fa'
 
 export function Team() {
