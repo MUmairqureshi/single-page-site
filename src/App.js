@@ -1,22 +1,19 @@
 
-import {Navbar} from './components/navbar'
-import {Hero} from './components/hero'
-import {About} from './components/about'
-import {Platforms} from './components/Platforms'
-import {Support} from './components/Support'
-import {Pricing} from './components/pricing'
+import { Home } from './components/home'
+import { About } from './components/about'
+import {Team} from './components/team' 
+import {Contact} from './components/contact'
 import {Footer} from './components/footer'
 function App() {
   return (
-    <div className="">
-
-<Navbar/>
-<Hero/>
-<About/>
-<Support/>
-<Platforms/>
-<Pricing/>
-<Footer/>
+    <div className="bg-gray-100  m-auto w-full h-full  flex flex-col ">
+      <div class="">
+        <Home />
+        <About />
+        <Team/>
+        <Contact/>
+        <Footer/>
+      </div>
     </div>
   );
 }
